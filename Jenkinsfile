@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                // 在此处编写建置阶段的步骤
+                echo 'Building..'
             }
         }
         stage('Test') {
             steps {
-                // 在此处编写测试阶段的步骤
+                echo 'Testing..'
             }
         }
         stage('Deploy') {
             steps {
-                // 在此处编写部署阶段的步骤
+                echo 'Deploying....'
             }
         }
         stage('Release') {
