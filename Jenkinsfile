@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Release') {
             steps {
-                // 在此处编写发布阶段的步骤
+               echo 'Release....'
             }
         }
     }
